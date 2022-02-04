@@ -9,7 +9,7 @@ public class Video {
     private String title;
     private int length;
     private LocalDate uploadDate;
-    private List<String> hashTags = new ArrayList<>();
+    private List<String> hashTags;
 
     public Video(String title, int length, LocalDate uploadDate, List<String> hashTags) {
         this.title = title;
